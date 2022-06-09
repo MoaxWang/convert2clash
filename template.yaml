@@ -1,8 +1,8 @@
-#---------------------------------------------------#
+#-------------------------------------------------------#
 ## standard config file
 ## refer to clash
 ## https://github.com/Dreamacro/clash/wiki/configuration
-#---------------------------------------------------#
+#-------------------------------------------------------#
 
 # Port of HTTP(S) proxy server on the local end
 port: 7890
