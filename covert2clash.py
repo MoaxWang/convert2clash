@@ -296,11 +296,11 @@ def save_config(path, data):
     log('[Info] Number of Nodes Updated: {}'.format(len(data['proxies'])))
 
 if __name__ == '__main__':
-    # Subscription address | Multiple addresses are used; separate
+    # use ';' to separate multiple addresses
     sub_url = 'http://sub_links_1;http://sub_links_2'
     # path to local configuration file
     config_path = './template.yaml'
-    # Output path
+    # output path
     output_path = './config.yaml'
     
     node_list = get_proxies(sub_url)
