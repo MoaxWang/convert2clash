@@ -118,7 +118,7 @@ def get_proxies(urls):
     }
     # Access to the subscription link
     for url in url_list:
-        response = requests.get(url, headers=headers,verify=False,timeout=5000).text
+        response = requests.get(url, headers=headers,timeout=5000).text
         try:
             raw = base64.b64decode(response)
         except Exception as r:
