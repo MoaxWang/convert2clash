@@ -9,8 +9,9 @@
 #### Pre-requirements:
 ~~~
 pip install -r requirements.txt
-
+~~~
 #### Solution for SSL conncection issue:
 add the following into line 121
 ~~~
 verify=False
+~~~
