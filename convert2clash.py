@@ -88,7 +88,7 @@ def decode_ssr_node(nodes):
         proxy_str = safe_decode(decode_proxy).decode('utf-8')
         parts = proxy_str.split(':')
         if len(parts) != 6:
-            print('Faile to analyse the SSR node, link:{}'.format(node))
+            print('Fail to analyse the SSR node, link:{}'.format(node))
             continue
         info = {
             'server': parts[0],
@@ -276,7 +276,7 @@ def load_local_config(path):
         f.close()
         return local_config
     except FileNotFoundError:
-        log('[Warning] Faile to loading configuration')
+        log('[Warning] Fail to loading configuration')
         sys.exit()
 
 # Add proxy into configuration
